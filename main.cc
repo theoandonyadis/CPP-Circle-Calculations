@@ -6,8 +6,8 @@
 using namespace std;
 int distance(double a,double b,double c,double d) //Distance function used to find the distance from (x1,y1) to (x2,y2)
 {
-	double run = c-a;
-	double rise = d-b;
+	double run = c-a;	//computes x2(c) - x1(a)
+	double rise = d-b;	//computes y2(d) - y1(b)
 	double sum = run*run + rise*rise;
 	double distance = sqrt(sum);
 	return distance;
@@ -43,7 +43,7 @@ int main()
 	double r;
 	r = radius(x1,y1,x2,y2);
 	double c = circumference(r); //Calls circumference function and stores it in variable c
-	double a = area(r); //Calls area function and stores it in variable a
+	double a = area(r); //Calls area function and stores resulting value in variable a
 	char choice;
 	while(choice != 4) //While loop to run the menu repeatedly
 	{
