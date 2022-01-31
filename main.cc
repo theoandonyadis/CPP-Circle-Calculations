@@ -1,5 +1,5 @@
 //Theo Andonyadis
-//ECE 2620 Section 001
+//This program uses various functions to make calculations based on the center point and a point on the outside of a circle entered by the user.
 #include <iostream>
 #include <cmath>
 #include <limits>
